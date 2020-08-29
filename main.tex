@@ -1,0 +1,70 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=1cm,bottom=1.5cm,left=1cm,right=1cm,marginparwidth=1cm]{geometry}
+
+%% Useful packages
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{sectsty}
+\usepackage{apacite}
+\usepackage{float}
+\usepackage{titling}
+\usepackage{multicol}
+\usepackage{blindtext}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+\definecolor{darkgreen}{rgb}{0.0, 0.4, 0.0}
+
+\usepackage{comment}
+
+\usepackage{multirow}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 							% horizontal
+\center 
+ 
+\textsc{\LARGE Delft University of Technology}\\[1cm]
+
+\Large{System Integration Project}\\[0.2cm]
+\textsc{\large SET3815}\\[1cm] 										% Course Code
+\HRule \\[0.8cm]
+{ \huge \bfseries Final report}\\[0.7cm]								% 
+
+\HRule \\[2cm]
+\large
+\emph{\LARGE{Group 19}}\\
+Gopan Gopalan Achary Venkitachalam (4811151) \\
+ Omkar Manmohan Sane (47775163)\\Rishikesh Joshi (4815378)\\
+Soham Dhareshwar (4833902)\\[1.5cm]
+ 
+{\large \today}\\[5cm]
+\includegraphics[width=0.6\textwidth]{TU_delft_logo.jpg}\\[1cm] 
+\vfill 
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\input{w1/ISR.tex}
+
+\input{Final_report/final_report.tex}
+\appendix
+%\input{Final_report/appendix.tex}
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
+\end{document}
